@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaitiakitanga</title>
+    <link rel="icon" type="image/jpg" href="/img/tree.png">
+    <link rel="stylesheet" href="style.css">
+
+    <!--poppins font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    
+    <style>
+        *{
+            font-family: poppins;
+            
+        }
+
+        section{
+            margin: 100px;
+        }
+
+        form{
+            background-color: rgb(41, 102, 41);
+            padding: 50px 500px 500px 50px;
+        
+            
+        }
+
+
+        .contactcontainer{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        .contact-left{
+            float: left;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            gap: 20px;
+        }
+
+        .contact-title h1{
+            color: white;
+        }
+
+        .contact-title hr{
+            color: white;
+            height: 5px;
+            width:120px;
+            background-color: white;
+        }
+
+
+
+    
+        
+
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        
+        <nav class="navbar">
+            
+            <div class="navdiv">
+                <div class="logo">
+                    <a href="index.html"><img src="/img/Picture1.png" class="logoo" width="300px" height="75px">
+                </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </div>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div class="contactcontainer">
+
+            
+
+            <form action="" class="contact-left">
+
+                <div class="contact-title">
+                    <h1>Contact Us!</h1>
+                    <hr>
+                </div>
+
+                <input type="text" name = "name" placeholder="Full Name" class="contact-inputs" required>
+                <input type="text" name = "name" placeholder="Email" class="contact-inputs" required>
+                <textarea name="message" placeholder="Message" class="contact-inputs" ></textarea>
+                <button type="button">Submit</button>
+            </form>
+            <div class="contact-right">
+                <div class="contactimage">
+                    <img src="/img/contactimage.jpeg" alt="">
+                </div>
+            </div>
+            
+                
+            </div>
+    
+           
+            
+    
+    
+        </div>
+    </section>
+
+
+   
+    
+    
+</body>
+</html>
